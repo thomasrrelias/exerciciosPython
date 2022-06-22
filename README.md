@@ -1,0 +1,2 @@
+# tarefas
+  Exercícios Python estudo.

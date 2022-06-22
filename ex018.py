@@ -1,0 +1,10 @@
+import math
+print('Descubra o Seno, Cosseno e Tangente')
+an = int(input('Escreva o angulo desejado: '))
+r = math.radians(an)
+s1 = math.sin(r)
+c1= math.cos(r)
+t1 = math.tan(r)
+print('O ângulo de {} tem o SENO de {:.2f}'.format(an, s1))
+print('O ângulo de {} tem o COSSENO de {:.2f}'.format(an, c1))
+print('O angulo de {} tem a TANGENTE de {:.2f}'.format(an, t1))
